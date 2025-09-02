@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOTELO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Spline+Sans:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div id="top-items" class="display">
+            <div class="left-top-items">
+              <ul class="display">
+                <li>
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <a href="tel:+12345678999">+12 345 678 999</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:hello@example.com">hello@example.com</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  123 Western Road Melbourne, UK.
+                </li>
+              </ul>
+            </div>
+            <div id="right-top-items" class="display">
+              <ul class="display" id="social-links">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+              <div class="select-lang">
+                <i class="fa-solid fa-earth-americas"></i>
+                <select class="countries">
+                  <option value="">Eng</option>
+                  <option value="">Ger</option>
+                  <option value="">Fra</option>
+                  <option value="">Spa</option>
+                  <option value="">Rus</option>
+                  <option value="">Ita</option>
+                </select>
+              </div>
+              <div class="user-account">
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Login/Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <nav>
+            <a href="#" id="page-logo"
+              ><img src="./Assets/logo-page.png" alt=""
+            /></a>
+            <div class="header-menu">
+              <ul class="header-options">
+                <li>
+                  <a href="#">Home<i class="fa-solid fa-plus"></i></a>
+                  <ul class="drop-down-menu" style="display: none">
+                    <li><a href="#">Homepage One</a></li>
+                    <li><a href="#">Homepage Two</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li>
+                  <a href="#">Our Rooms<i class="fa-solid fa-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#">Pages<i class="fa-solid fa-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#">Blogs<i class="fa-solid fa-plus"></i></a>
+                </li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <div class="header-other-options">
+                <div class="search-option">
+                  <form action="" method="get">
+                    <input type="search" placeholder="Search..." />
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </form>
+                </div>
+                <div class="book-now-btns"><a href="#">Book Now</a></div>
+              </div>
+            </div>
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="menu-bar">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+<div class="mobile-hero">
+  <div class="hero-content">
+    <div class="banner-in">
+    <h5>Welcome To Our Motel</h5>
+    <h2>Where friends and family will always feel at home!</h2>
+    <a href="#" class="book-btn-mobile">Contact Us</a>
+    </div>
+  </div>
+
+
+
+  
+</div>
+
+<div class="big-shadow">
+  <div class="field">
+        <input type="text" placeholder="Check In" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
+      </div>
+      <div class="field">
+        <input type="text" placeholder="Check Out" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
+      </div>
+      <div class="field">
+        <select>
+          <option>Adults</option>
+          <option>1 Adult</option>
+          <option>2 Adults</option>
+          <option>3 Adults</option>
+          <option>4 Adults</option>
+        </select>
+      </div>
+      <div class="field">
+        <select>
+          <option>Childs</option>
+          <option>0 Child</option>
+          <option>1 Child</option>
+          <option>2 Childs</option>
+        </select>
+      </div>
+      <div class="field">
+        <select>
+          <option>Rooms</option>
+          <option>1 Room</option>
+          <option>2 Rooms</option>
+          <option>3 Rooms</option>
+        </select>
+      </div>
+      <button>Search</button>
+    </div>
+
+
+
+    <div class="main-page">
+       <div class="main-container">
+            <img src="https://hotelo.mhrtheme.com/wp-content/uploads/2024/09/slider-2.jpg" alt="" height="500px" width="5   00px">
+            <div class="main-carosel-content">
+                <h5>Welcome To Our Resort</h5>
+                <h2>Choose us once, and you will choose us always.</h2>
+                <a href="#">Booking</a>
+            </div>
+
+        </div>
+
+ 
+
+
+
+
+         <div class="main-container">
+            <img src="https://hotelo.mhrtheme.com/wp-content/uploads/2024/09/slider-2.jpg" alt="">
+            <div class="main-carosel-content">
+                <h5>Welcome To Our Resort</h5>
+                <h2>Choose us once, and you will choose us always.</h2>
+                <a href="#">Booking</a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+         <div class="main-container">
+            <img src="https://hotelo.mhrtheme.com/wp-content/uploads/2024/09/slider-2.jpg" alt="">
+            <div class="main-carosel-content">
+                <h5>Welcome To Our Resort</h5>
+                <h2>Choose us once, and you will choose us always.</h2>
+                <a href="#">Booking</a>
+            </div>
+
+        </div>
+    </div>
+  
+    <!-- Booking form -->
+     <div class="booking-section">
+      <div class="field">
+        <input type="text" placeholder="Check In" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
+      </div>
+      <div class="field">
+        <input type="text" placeholder="Check Out" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
+      </div>
+      <div class="field">
+        <select>
+          <option>Adults</option>
+          <option>1 Adult</option>
+          <option>2 Adults</option>
+          <option>3 Adults</option>
+          <option>4 Adults</option>
+        </select>
+      </div>
+      <div class="field">
+        <select>
+          <option>Childs</option>
+          <option>0 Child</option>
+          <option>1 Child</option>
+          <option>2 Childs</option>
+        </select>
+      </div>
+      <div class="field">
+        <select>
+          <option>Rooms</option>
+          <option>1 Room</option>
+          <option>2 Rooms</option>
+          <option>3 Rooms</option>
+        </select>
+      </div>
+      <button>Search</button>
+    </div>
+  </div>
+<!-- Explore Our Rooms SECTION -->
+    <section class="gridStyle">
+        <div class="gridStyle-title">
+            <h2>Explore Our Rooms (Grid Style)</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna
+                aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+        </div>
+        <div class="gridStyle-container">
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="./Assets/room-4.jpg"
+                                alt="">
+                            <span>
+                                $100 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Single Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>3 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-2.jpg"
+                                alt="">
+                            <span>
+                                $120 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Double Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-3.jpg"
+                                alt="">
+                            <span>
+                                $140 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Triple Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>1 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-4.jpg"
+                                alt="">
+                            <span>
+                                $100 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Quad Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>3 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-5.jpg"
+                                alt="">
+                            <span>
+                                $120 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Queen Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-6.jpg"
+                                alt="">
+                            <span>
+                                $140 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">King Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>1 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-7.jpg"
+                                alt="">
+                            <span>
+                                $100 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Twin Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>3 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-8.jpg"
+                                alt="">
+                            <span>
+                                $120 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Studio Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-9.jpg"
+                                alt="">
+                            <span>
+                                $140 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Standard Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>1 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-10.jpg"
+                                alt="">
+                            <span>
+                                $100 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Deluxe Room</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>3 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-11.jpg"
+                                alt="">
+                            <span>
+                                $120 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Superior Suite</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sliderStyle-container-items">
+                <div class="gridStyle-cards">
+                    <div class="gridStyle-card">
+                        <div class="gridStyle-position-relative"><img class="img-fluid"
+                                src="https://hotelo.mhrtheme.com/wp-content/plugins/vikbooking/site/resources/uploads/room-12.jpg"
+                                alt="">
+                            <span>
+                                $140 / Night
+                            </span>
+                        </div>
+                        <div class="gridStyle-cards2">
+                            <div class="gridStyle-card-item">
+                                <h5 class="">Presidential Suite</h5>
+                                <div class="star-icon">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="gridCrad-features">
+                                <span><i class="fa-solid fa-bed"></i>2 Bed</span>
+                                <span><i class="fa-solid fa-bath"></i>1 Bath</span>
+                                <span><i class="fa-solid fa-wifi"></i>Wifi</span>
+                            </div>
+                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed
+                                stet lorem.</p>
+                            <div class="view-details-container">
+                                <a class="view-details-btn" href="#">View Details</a>
+                                <a class="book-now-btn" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+  <div class="slider-cards">
+    <div class="slider-head">
+      <h2>Explore Our Rooms (Grid Style)</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+    </div>
+    <div class="cards">
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$100/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Quad Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$120/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Queen Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$140/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>King Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$100/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Twin Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$120/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Studio Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$140/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Standard Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$100/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Deluxe Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$120/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Superior Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$140/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Presidential Suite</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>1 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Assets/room-4.jpg" alt="">
+        <p class="cost">$100/Night</p>
+        <div class="card-bottom">
+          <div class="room-name-star">
+             <h5>Quad Room</h5>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="features">
+            <span><i class="fa-solid fa-bed"></i>3 Bed</span><span><i class="fa-solid fa-bath"></i>2 Bath</span><span><i class="fa-solid fa-wifi"></i>Wifi</span>
+          </div>
+          <div class="room-about">
+         <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+          <div class="view-book-btns">
+            <a href="#" class="view">View Details</a>
+            <a href="#" class="book">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="questions">
+    <div class="container">
+    <div class="questions-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+    </div>
+<div class="que-list">
+  <div class="col1">
+    <div class="container">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+                                                What do we mean by business?    
+                                            </a></li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+                                                What are the positive aspects of business?  
+                                            </a></li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+                                                What are the negative aspects of business?</a>
+                                            </li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+                                                What is the way to grow a business?</a>
+                                            </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col1">
+     <div class="container">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+                                             
+                                                Where should my business be involved?   
+                                               
+                                            </a></li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+
+                                                How much money can be used to start a business?
+                                                                                        </a></li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+
+                                                What are the benefits to business customers?</a>
+                                                                                        </li>
+        <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+
+                                                10 easy rules to expand your business.
+                                                                                          </a>
+                                            </li>
+                                             <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+
+                                                How do I highlight in the name of the business?
+                                                                                        </a></li>
+                                             <li><a href="#"><i class="fa-solid fa-angle-down"></i>
+
+                                                How do I analyze the promotion of the business?
+                                                                                        </a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div class="testimonials">
+    <div class="container">
+     <div class="questions-header">
+      <h2>Our Clients Feedback</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+    </div>
+    </div>
+    </div> 
+<div class="slide-cards">
+
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-4.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Daisy Lucy</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-6.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+  
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-5.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+
+
+  
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-3.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+
+
+
+  
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-2.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+
+
+  
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-1.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+
+
+
+
+  
+<div class="testimonial-card">
+    <!-- Stars and Rating -->
+    <div class="rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating">(5.0)</span>
+    </div>
+
+    <!-- Testimonial Text -->
+    <p class="testimonial-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. 
+      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    </p>
+
+    <!-- Profile Image -->
+     <div class="testi-img">
+    <img src="./Assets/testimonial-3.png" alt="Profile Picture" class="profile-img">
+
+    <!-- Name -->
+    <div class="name">Taylor Sopia</div>
+    <div class="desig">Graphic Designer</div>
+    </div>
+  </div>
+
+</div>
+<div class="team-area">
+  <div class="container">
+    <div class="team-head">
+      <h2>Our Team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+    </div>
+    <div class="team-cards">
+      <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-1.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>John Smith</h3>
+            <span>Hotel Manager</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+       <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-2.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Sarah Taylo</h3>
+            <span>Hotel Manager</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+ <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-3.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Amily Mark</h3>
+            <span>Hotel Receptionist</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+ <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-4.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Lucy Eva</h3>
+            <span>Concierge</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+
+
+
+
+ <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-5.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Alister Cock</h3>
+            <span>Reservation Agent</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+       <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-6.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Jammy Haris</h3>
+            <span>HR Manager</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+ <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-7.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Taylor Sopia</h3>
+            <span>IT Manager</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+ <div class="team-card1">
+        <div class="team-card1-box">
+          <div class="team-img">
+            <a href="">
+              <img src="./Assets/team-8.jpg" alt="">
+            </a>
+            <ul class="social-links-team">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3>Harry Steve</h3>
+            <span>Accounting Manager</span>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+    <div class="our-blogs">
+        <div class="our-blogs-header">
+            <h2>Our Latest Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna
+                aliqua.
+                Quis ipsum suspendisse ultrices gravida.</p>
+        </div>
+        <div class="our-blogs-row">
+            <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="./Assets/images/blog-1.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">Europe</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                        A Behind the Scenes Look at Metro Hotels’ Direct Channel Success.
+                    </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="Assets/images/blog-2.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">Ireland</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                       The Importance of an Integrated Booking Engine in a Hotel’s Direct Booking.
+                    </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="./Assets/images/blog-3.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">Dubai</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                        The Secret to Summertime Success on Your Hotel’s Website.
+                    </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="Assets/images/blog-4.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">New York</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                        How H10 Hotels grew their marketing database by capturing first-party data?
+                        </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="Assets/images/blog-5.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">Singapore</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                        How Penta Hotels Tripled Their Survey Answers Using Form Builder?
+
+                    </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="our-blogs-card">
+                <div class="our-blogs-card-top">
+                    <a href="#"><img src="Assets/images/blog-6.jpg">
+                    </a>
+                    <div class="blog-category">
+                        <a href="#">Australia</a>
+                    </div>
+
+                </div>
+                <div class="our-blogs-content">
+                    <h5 class="our-blog-title">
+                       Inside Palacio Estoril: Combining Historical Charm with Cutting-Edge Hospitality.
+                       </h5>
+                    <div class="our-blog-read-more">
+                        <a href="#">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer-wrap">
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-left">
+                <div class="footer-logo-section">
+                    <div class="logo-brand">
+                        <img src="./Assets/images/logo-dark-footer.png">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet cons tetur adcing elit.
+                        Dolor emque dicta molest enim beatae ame consequ atur tempo
+                        pretium auctor nam.
+                    </p>
+                    <div class="subscription-form">
+                        <input type="email" placeholder="Email Address">
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-right">
+                <div class="footer-column">
+                    <h3 class="footer-right-title">Our Services</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-minus"></i>Rooms & Apartments</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Food & Restaurant</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Spa & Fitness</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Sports & Gaming</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Event & Party</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Gym & Yoga</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Our Teams</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-minus"></i>John Smith</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Amily Mark</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Lucy Eva</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Alister Cock</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Jammy Haris</a></li>
+                        <li><a href="#"><i class="fas fa-minus"></i>Taylor Sopai</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>
+                            <div class="contact-header">
+                                <i class="fas fa-location-dot"></i>
+                                <span>Location</span>
+                            </div>
+                            <span>123 Western Road Melbourne, United Kingdom.</span>
+                        </li>
+                        <li>
+                            <div class="contact-header">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </div>
+                            <span>hello@example.com</span>
+                        </li>
+                        <li>
+                            <div class="contact-header">
+                                <i class="fas fa-phone"></i>
+                                <span>Phone</span>
+                            </div>
+                            <span>+12 345 678 999</span>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <p class="all-rights">
+                    © 2025 Hotelo - Hotel, Resort, Motel HTML and Bootstrap Website Template. All Rights Reserved.
+                </p>
+
+            </div>
+            <div class="footer-bottom-right">
+                <ul class="social-profile">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            </i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                            </i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                            </i>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </i>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+  </body>
+</html>
+
+
+   
+    
+
+  
+ 
+    
+
+
